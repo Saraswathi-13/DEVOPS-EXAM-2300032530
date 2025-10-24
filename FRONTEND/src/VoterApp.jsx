@@ -19,7 +19,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function VoterApp() {
-  const baseUrl = `${import.meta.env.VITE_API_URL}`;
+  const baseUrl = `${import.meta.env.VITE_API_URL}/`;
   const [voter, setVoter] = useState({
     id: "",
     name: "",
